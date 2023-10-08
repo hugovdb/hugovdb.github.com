@@ -1,16 +1,35 @@
+
+
 <!-- modify this form HTML and place wherever you want your form -->
 <form
   action="https://formspree.io/f/mjvqpqab"
   method="POST"
   enctype="multipart/form-data"
 >
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your file:
-    <input type="file" name="upload">
-  </label>
-  <button type="submit">Send</button>
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <fieldset id="fs-frm-selects">
+      <label for="timely">1. Bonne nouvelle, on prévois de bien manger! Mais pour faire au mieux, on a besoin de savoir si tu prévois de manger de la viande ou pas.</label>
+      <select name="timely" id="timely" required="">
+        <option value="" selected="" disabled="">Sans viande</option>
+        <option value="1">Avec viande</option>
+      </select>
+      <label for="timely">2. Nous prévoyons aussi les boissons! Même question mais pour l'alcool.</label>
+      <select name="timely" id="timely" required="">
+        <option value="" selected="" disabled="">Sans alcool</option>
+        <option value="1">Avec alcool</option>
+      </select>
+      <label for="timely">3. The quality of work was high in quality.</label>
+      <select name="quality" id="quality" required="">
+        <option value="" selected="" disabled="">Choose</option>
+        <option value="1">Strongly Agree</option>
+        <option value="3">Agree</option>
+        <option value="5">Neutral</option>
+        <option value="7">Disagree</option>
+        <option value="9">Strongly Disagree</option>
+      </select>
+    </fieldset>
 </form>
