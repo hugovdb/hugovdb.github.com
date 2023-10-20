@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Infos
-permalink: /hugovdb.github.io/informations
 ---
 Après avoir lu les infos, n'oubliez pas d'aller voir le questionnaire !
 Ca va nous aider pour préparer notre mariage :)
