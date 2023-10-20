@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "notre mariage :)"
+title: "Questionnaire"
 ---
 
-Bonjour, et bienvenu à notre mariage :)
+Ici, plus tard, le questionnaire
