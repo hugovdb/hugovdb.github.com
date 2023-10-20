@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Bonjour et bienvu chez moi :)
