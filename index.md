@@ -4,3 +4,8 @@
 
 layout: home
 ---
+
+Bonjour et bienvenu à notre mariage :)
+
+On a hâte de vous accueillir !
+
