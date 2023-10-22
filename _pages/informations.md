@@ -4,41 +4,59 @@ title: Infos
 permalink: /infos/
 
 intro:
-    image_path: /assets/images/Laur.jpg
+    #- image_path: /assets/images/logement.jpg
+    - title: Le 27 Avril 2024 à Saint-Clar-de-Rivière
+    - excerpt: >
+        ##### Après avoir lu ces informations, n'oubliez pas d'aller voir le [questionnaire](/questionnaire) !
 
+gallery:
+  - image_path: /assets/images/questions2.jpg
+  - image_path: /assets/images/questions1.jpg
 
 ---
-{% include feature_row id="intro" %}
-<!--
-Après avoir lu les infos, n'oubliez pas d'aller voir le questionnaire !
+{% include feature_row id="intro" type="center" %}
 
-Ca va nous aider pour préparer notre mariage :)
+#### Les cérémonies
+> * Civile à la mairie de Saint-Clar-de-Rivière à 14h
+> * Religieuse à l'Eglise de Saint-Clar-de-Rivière à 15h30
+
+{% include figure image_path="/assets/images/ceremonies.jpg" type="center" %}
+
+#### Le repas
+Ici, une option végée ou carnée à choisir ! Et c'est pour ça qu'on a besoin de vos réponses
+
+{% include figure image_path="/assets/images/repas.jpg" type="center" %}
 
 
-La base
-    Quand? => Le ---date---
-    Où? => A ---lieux---
+#### Le logement
+On ne va malheureusement pas pouvoir loger tout le monde. On vous a préparé une petite liste de campings, gites et airbnb pour vous aider
+> --- Liste à rajouter ---
+> - option 1
+> - option 2
 
-Pour le logement
-    Désolé mais on peut pas tout prévoir... 
-    Il y a des campings
+{% include figure image_path="/assets/images/logement.jpg" type="center" %}
 
-Le repas
-    Une option végé ou carné à choisir !
+#### Cadeaux de mariage
+On est ravis de vous retrouver ! Si en plus vous avez envie de nous faire un cadeau, on préférerait un coup de pouce pour nos futurs projets :
+> - Voyage de noces au Monténégro
+> - Aménagement de la maison
+> - Réparations du tandem
 
-Liste de mariage
-    => de la vaisselle pour la belle Laur
+Et si vraiment vous préférez un cadeau matériel, dites le nous pour qu'on voit ensemble !
 
-Activités
-    => si tu veux en proposer,  @Mail ou @Sylvain
+{% include figure image_path="/assets/images/tandem.jpg" type="center" %}
 
-Cérémonies
-    => civile : 14h
-    => religieuse : 15h30
-    Si tu le souhaites, tu as le droit d'éviter une cérémonie
+#### Activités
+Vous avez une idée d'activité à faire ensemble le _jour J_ ? Trop bien !
+Contactez Maïlis ou Sylvain qui vont tout coordonner (si besoin du contact, dites nous)
 
-Et d'autres questions ?
-    Dis nous tout!
+{% include figure image_path="/assets/images/activites.jpg" type="center" %}
 
-Pour les (jeunes) parents
-    => ici un lien spécifique pour les parents
+#### Pour les (jeunes) parents
+Allez voir la [section](/parents/) faite pour vous
+{% include figure image_path="/assets/images/parents.jpg" type="center" %}
+
+#### Et encore d'autres questions ?
+Dites nous tout !
+
+{% include gallery type="center" %}

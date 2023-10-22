@@ -10,26 +10,26 @@ header:
 #    On a hâte de vous retrouver ! 
 
 feature_row:
-- image_path: /assets/images/Laur.jpg
+- image_path: /assets/images/classique.jpg
   title: "Les informations"
   excerpt: "La date, le lieu, mais aussi le menu, les logements..."
   url: "/infos/"
   btn_class: "btn--primary"
   btn_label: "Je veux tout savoir"
 
-- image_path: /assets/images/a-deux.jpg
-  title: "Et pour les jeunes parents"
-  excerpt: "On sait bien que ce n'est plus aussi facile, alors on veut penser à vous !"
+- image_path: /assets/images/bouya.jpg
+  title: "Pour les jeunes parents"
+  excerpt: "On sait bien que ce n'est plus aussi simple, alors on veut faciliter votre venue !"
   url: "/parents/"
   btn_class: "btn--primary"
   btn_label: "Dis m'en plus"
 
-- image_path: /assets/images/Hugo.jpg
+- image_path: /assets/images/Aaaah.jpg
   title: "Le questionnaire"
   excerpt: "On a des questions à vous poser pour nous aider à organiser au mieux !"
   url: "/questionnaire/"
   btn_class: "btn--primary"
-  btn_label: "Aidez-nous"
+  btn_label: "C'est parti"
 ---
 Retrouvez toutes les informations pour notre mariage
 
