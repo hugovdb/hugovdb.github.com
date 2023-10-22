@@ -48,13 +48,13 @@ defaults:
         show_overlay_excerpt: false
 
 ### for remote hosting only ###
-#plugins:
-#  - jekyll-paginate
-#  - jekyll-sitemap
-#  - jekyll-gist
-#  - jekyll-feed
-#  - jemoji
-#  - jekyll-include-cache
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 
 # Exclude from processing.

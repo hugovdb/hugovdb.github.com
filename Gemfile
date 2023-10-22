@@ -36,5 +36,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 
 ### localhost only below ###
-gem "webrick", "~> 1.8"
-gem "minimal-mistakes-jekyll"
+#gem "webrick", "~> 1.8"
+#gem "minimal-mistakes-jekyll"
