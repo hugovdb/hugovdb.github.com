@@ -6,8 +6,7 @@ header:
     overlay_image: /assets/images/valier.jpg
     show_overlay_excerpt: false
     show_excerpts: false
-#    Venez découvrir notre vie dans le sud  
-#    On a hâte de vous retrouver ! 
+
 
 feature_row:
 - image_path: /assets/images/classique.jpg
@@ -31,6 +30,4 @@ feature_row:
   btn_class: "btn--primary"
   btn_label: "C'est parti"
 ---
-Retrouvez toutes les informations pour notre mariage
-
 {% include feature_row %}
