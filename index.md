@@ -9,8 +9,6 @@ header:
 #    Venez découvrir notre vie dans le sud  
 #    On a hâte de vous retrouver ! 
 
-toc: true
-
 feature_row:
 - image_path: /assets/images/Laur.jpg
   title: "Les informations"
@@ -18,18 +16,20 @@ feature_row:
   url: "/infos/"
   btn_class: "btn--primary"
   btn_label: "Je veux tout savoir"
+
 - image_path: /assets/images/a-deux.jpg
-  title: "Le questionnaire"
-  excerpt: "On a des questions à vous poser pour nous aider à organiser au mieux !"
-  url: "/questionnaire/"
-  btn_class: "btn--primary"
-  btn_label: "Aidez-nous"
-- image_path: /assets/images/Hugo.jpg
   title: "Et pour les jeunes parents"
   excerpt: "On sait bien que ce n'est plus aussi facile, alors on veut penser à vous !"
   url: "/parents/"
   btn_class: "btn--primary"
   btn_label: "Dis m'en plus"
+
+- image_path: /assets/images/Hugo.jpg
+  title: "Le questionnaire"
+  excerpt: "On a des questions à vous poser pour nous aider à organiser au mieux !"
+  url: "/questionnaire/"
+  btn_class: "btn--primary"
+  btn_label: "Aidez-nous"
 ---
 Retrouvez toutes les informations pour notre mariage
 
