@@ -1,41 +1,45 @@
-<form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+<form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/mjvqpqab" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Dis nous qui tu es ?</label>
-    <input type="text" name="name" id="full-name" placeholder="Nom et Prénom, s'il vous plaît" required="">
+    <input type="text" name="Nom et prénom" id="full-name" placeholder="Nom et Prénom, s'il vous plaît" required="">
+  </fieldset>
     <fieldset id="fs-frm-selects">
-      <label for="timely">Première chose, est-ce que tu viens ?</label>
-      <select name="quality" id="quality" required="">
-        <option value="" >Oui !</option>
-        <option value="1">Non :(</option>
+      <label for="Viens">Première chose, est-ce que tu viens ?</label>
+      <select name="Viens" id="viens" required="">
+        <option value="Oui" selected>Oui !</option>
+        <option value="Non">Non :(</option>
       </select>
-      <label for="timely">1. Bonne nouvelle, on prévoit de bien manger ! </br>Mais pour faire au mieux, on a besoin de savoir si tu veux manger de la viande ou pas.</label>
-      <select name="timely" id="timely" required="">
-        <option value="1" selected="">Végétarien</option>
-        <option value="2">Carnivore</option>
+      <label for="Repas">1. Bonne nouvelle, on prévoit de bien manger ! </br>Mais pour faire au mieux, on a besoin de savoir si tu veux manger de la viande ou pas.</label>
+      <select name="Repas" id="Repas">
+        <option value="Végé" selected>Végétarien</option>
+        <option value="Carné">Carnivore</option>
       </select>
-      <label for="timely">2. Nous prévoyons aussi les boissons ! <br> Pour nous aider avec les quantités d'alcool, dis nous si tu prévois d'en boire.</label>
-      <select name="timely" id="timely" required="">
-        <option value="1" selected="" >Sans alcool</option>
-        <option value="2">Avec alcool</option>
+      <label for="Alcool">2. Nous prévoyons aussi les boissons ! <br> Pour nous aider avec les quantités d'alcool, dis nous si tu prévois d'en boire.</label>
+      <select name="Alcool" id="Alcool">
+        <option value="Sans alcool" selected>Sans alcool</option>
+        <option value="Alcool">Avec alcool</option>
       </select>
-      <label for="timely">3. Nous planifions aussi un rebond le dimanche, c'est à dire un brunch pour ceux qui souhaitent jouer les prolongations. <br> Pour nous aider à prévoir les quantités, dis nous si tu penses venir.</label>
-      <select name="timely" id="timely" required="">
-        <option value="" selected="">Oui</option>
-        <option value="1">Non</option>
+      <label for="Rebond">3. Nous planifions aussi un rebond le dimanche, c'est à dire un brunch pour ceux qui souhaitent jouer les prolongations. <br> Pour nous aider à prévoir les quantités, dis nous si tu penses venir.</label>
+      <select name="Rebond" id="Rebond">
+        <option value="Oui" selected>Oui</option>
+        <option value="Non">Non</option>
       </select>
-     <label for="full-name">Est-ce que tu as envie d'une musique particulière pendant la soirée ?</label>
-    <input type="text" name="name" id="full-name" placeholder="Cascada - Everytime We Touch" required="">
     </fieldset>
-    <label for="message">Pour les jeunes parents uniquement, pouvez-vous lister les équipements nécessaire pour votre/vos enfant.s que vous n'êtes *pas* en mesure de ramener vous même ?</label>
-    <textarea rows="3" name="message" id="message" placeholder="Un lit parapluie, un matelas au sol, des couches, des draps..." required=""></textarea>
-    <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
-       <label for="message">Toujours pour les jeunes parents, combien de menus enfant sont à prévoir. Plat : Volaille du Gers panée et pommes de terre grenailles grillées aux herbes</label>
-      <select name="plus" id="plus" required="">
+    <fieldset id="fs-frm-inputs">
+     <label for="Musique">Est-ce que tu as envie d'une musique particulière pendant la soirée ?</label>
+    <input type="text" name="Musique" id="Musique" placeholder="Cascada - Everytime We Touch">
+    </fieldset>
+    <fieldset id="fs-frm-selects">
+    <label for="Parents">Pour les jeunes parents uniquement, pouvez-vous lister les équipements nécessaire pour votre/vos enfant.s que vous n'êtes *pas* en mesure de ramener vous même ?</label>
+    <textarea rows="3" name="Parents" id="Parents" placeholder="Un lit parapluie, un matelas au sol, des couches, des draps..."></textarea>
+    <input type="hidden" name="Parents" id="Parents">
+       <label for="Menu enfant">Toujours pour les jeunes parents, combien de menus enfant sont à prévoir. Plat : Volaille du Gers panée et pommes de terre grenailles grillées aux herbes</label>
+      <select name="Menu enfant" id="Menu enfant">
         <option value="0" selected="">0</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
-    <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+      </fieldset>
   <input type="submit" value="C'est parti!">
 <style>/* reset */
 #fs-frm input,

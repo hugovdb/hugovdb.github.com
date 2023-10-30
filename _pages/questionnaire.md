@@ -1,5 +1,4 @@
 ---
-# ayout: page
 title: "Questionnaire"
 permalink: /questionnaire/
 ---

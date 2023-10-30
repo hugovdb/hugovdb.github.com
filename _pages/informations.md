@@ -1,10 +1,8 @@
 ---
-# layout: page
 title: Infos
 permalink: /infos/
 
 intro:
-    #- image_path: /assets/images/logement.jpg
     - title: Le 27 Avril 2024 à Saint-Clar-de-Rivière
     - excerpt: >
         ##### Après avoir lu ces informations, n'oubliez pas d'aller voir le [questionnaire](/questionnaire) !

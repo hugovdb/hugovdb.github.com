@@ -46,6 +46,7 @@ defaults:
       header: 
         overlay_image: /assets/images/valier.jpg
         show_overlay_excerpt: false
+        show_excerpts: false
 
 ### for remote hosting only ###
 plugins:
