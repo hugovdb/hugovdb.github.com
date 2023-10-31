@@ -59,6 +59,11 @@ Allez voir la [section](/parents/) faite pour vous !
 
 {% include figure image_path="/assets/images/parents.jpg" type="center" %}
 
+#### Restrictions
+La mairie nous interdit l'usage de tout confettis (même naturels) et pétards, merci de suivre cette règle.
+
+{% include figure image_path="/assets/images/restrict.jpg" type="center" %}
+
 #### Et encore d'autres questions ?
 Nous sommes là pour vous aider !
 
