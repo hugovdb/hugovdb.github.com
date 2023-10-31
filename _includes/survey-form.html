@@ -1,25 +1,30 @@
-<form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/mjvqpqab" method="post">
+<!--  <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://getform.io/f/c8c74002-c3b0-49d4-9a67-afd0516054c9" method="post">
+ -->
+ <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/mjvqpqab" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Dis nous qui tu es ?</label>
     <input type="text" name="Nom et prénom" id="full-name" placeholder="Nom et Prénom, s'il vous plaît" required="">
   </fieldset>
-    <fieldset id="fs-frm-selects">
+  <fieldset id="fs-frm-selects">
       <label for="Viens">Première chose, est-ce que tu viens ?</label>
-      <select name="Viens" id="viens" required="">
+      <select type="radio" name="Viens" id="viens" required="">
         <option value="Oui" selected>Oui !</option>
         <option value="Non">Non :(</option>
       </select>
-      <label for="Repas">1. Bonne nouvelle, on prévoit de bien manger ! </br>Mais pour faire au mieux, on a besoin de savoir si tu veux manger de la viande ou pas.</label>
+      <label for="Repas">Bonne nouvelle, on prévoit de bien manger !</label><br/>
+      <label> Mais pour faire au mieux, on a besoin de savoir si tu veux manger de la viande ou pas.</label>
       <select name="Repas" id="Repas">
         <option value="Végé" selected>Végétarien</option>
         <option value="Carné">Carnivore</option>
       </select>
-      <label for="Alcool">2. Nous prévoyons aussi les boissons ! <br> Pour nous aider avec les quantités d'alcool, dis nous si tu prévois d'en boire.</label>
+      <label for="Alcool">Nous prévoyons aussi les boissons !</label><br/>
+      <label>Pour nous aider avec les quantités d'alcool, dis nous si tu prévois d'en boire.</label>
       <select name="Alcool" id="Alcool">
         <option value="Sans alcool" selected>Sans alcool</option>
         <option value="Alcool">Avec alcool</option>
       </select>
-      <label for="Rebond">3. Nous planifions aussi un rebond le dimanche, c'est à dire un brunch pour ceux qui souhaitent jouer les prolongations. <br> Pour nous aider à prévoir les quantités, dis nous si tu penses venir.</label>
+      <label for="Rebond">Nous planifions aussi un rebond le dimanche, c'est à dire un brunch pour ceux qui souhaitent jouer les prolongations.</label><br>
+      <label>Pour nous aider à prévoir les quantités, dis nous si tu penses venir.</label>
       <select name="Rebond" id="Rebond">
         <option value="Oui" selected>Oui</option>
         <option value="Non">Non</option>
@@ -27,12 +32,12 @@
     </fieldset>
     <fieldset id="fs-frm-inputs">
      <label for="Musique">Est-ce que tu as envie d'une musique particulière pendant la soirée ?</label>
-    <input type="text" name="Musique" id="Musique" placeholder="Cascada - Everytime We Touch">
-    </fieldset>
-    <fieldset id="fs-frm-selects">
+    <input type="text" name="Musique" id="Musique" placeholder="Cascada - Everytime We Touch">  
     <label for="Parents">Pour les jeunes parents uniquement, pouvez-vous lister les équipements nécessaire pour votre/vos enfant.s que vous n'êtes *pas* en mesure de ramener vous même ?</label>
     <textarea rows="3" name="Parents" id="Parents" placeholder="Un lit parapluie, un matelas au sol, des couches, des draps..."></textarea>
     <input type="hidden" name="Parents" id="Parents">
+  </fieldset>
+  <fieldset id="fs-frm-selects">
        <label for="Menu enfant">Toujours pour les jeunes parents, combien de menus enfant sont à prévoir. Plat : Volaille du Gers panée et pommes de terre grenailles grillées aux herbes</label>
       <select name="Menu enfant" id="Menu enfant">
         <option value="0" selected="">0</option>
@@ -40,6 +45,7 @@
         <option value="2">2</option>
         <option value="3">3</option>
       </fieldset>
+      <input type="hidden" name="_gotcha" style="display:none !important">
   <input type="submit" value="C'est parti!">
 <style>/* reset */
 #fs-frm input,

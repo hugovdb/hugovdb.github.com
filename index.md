@@ -30,4 +30,6 @@ feature_row:
   btn_class: "btn--primary"
   btn_label: "C'est parti"
 ---
+**Les informations évolueront à l'approche de la date, n'hésitez pas à revenir les consulter !**
+
 {% include feature_row %}

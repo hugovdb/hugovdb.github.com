@@ -26,10 +26,13 @@ Ici, une option végée ou carnée à choisir ! Et c'est pour ça qu'on a besoin
 
 
 #### Le logement
-On ne va malheureusement pas pouvoir loger tout le monde. On vous a préparé une petite liste de campings, gites et airbnb pour vous aider.
-> --- Liste à rajouter ---
-> - option 1
-> - option 2
+On ne va malheureusement pas pouvoir loger tout le monde. On vous a préparé une petite liste pour démarrer vos recherches.
+> - Location de mobil home 4 ou 6 places à Saint-Lys (8km de Saint-Clar-de-Rivière) [camping le chemin vert](https://campinglecheminvert.com/)
+> - location de gite sur [gite-de-france](https://www.gites-de-france.com/fr/search?destination=Saint-Clar-de-Rivi%C3%A8re&towns=71729&travelers=2&seed=3cfdfe1a)
+> - Location sur [Airbnb](https://www.airbnb.fr/s/Saint~Clar~de~Rivi%C3%A8re--France/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2023-11-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=5&channel=EXPLORE&query=Saint-Clar-de-Rivi%C3%A8re%2C%20France&place_id=ChIJG4fsNlQ1qRIRMBVBL5z2BgQ&date_picker_type=calendar&source=structured_search_input_header&search_type=autocomplete_click) autour de Saint-Clar-de-Rivière : à Lherm, à Labastidette, à Saint-Lys...
+> - un [gite chez l'habitant](https://gitequetzal.fr/), à 100m de la maison  
+
+Si vous désirez faire une location avec d'autres invités et que vous souhaitez être mis en contact, dites le nous. Idem pour du covoiturage sur place.
 
 {% include figure image_path="/assets/images/logement.jpg" type="center" %}
 
