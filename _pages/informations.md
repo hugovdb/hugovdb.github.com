@@ -15,10 +15,8 @@ gallery:
 {% include feature_row id="intro" type="center" %}
 
 #### Les cérémonies
-> * Civile à la mairie de Saint-Clar-de-Rivière à **14h**
-> * Religieuse à l'Eglise de Saint-Clar-de-Rivière à **15h30**
-
-Les heures sont encore à confirmer
+> * Civile à la mairie de Saint-Clar-de-Rivière à **14h** (à confirmer)
+> * Religieuse à l'Eglise de Saint-Clar-de-Rivière à **15h30** (à confirmer)
 
 {% include figure image_path="/assets/images/ceremonies.jpg" type="center" %}
 
