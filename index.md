@@ -7,11 +7,14 @@ header:
     show_overlay_excerpt: false
     show_excerpts: false
 
+intro:
+ - excerpt: >
+    ##### Les informations évolueront à l'approche de la date, n'hésitez pas à revenir les consulter !
 
 feature_row:
 - image_path: /assets/images/classique.jpg
   title: "Les informations"
-  excerpt: "La date, le lieu, mais aussi le menu, les logements..."
+  excerpt: "La date, le lieu, les cérémonies, les activités, les logements..."
   url: "/infos/"
   btn_class: "btn--primary"
   btn_label: "Je veux tout savoir"
@@ -30,6 +33,6 @@ feature_row:
   btn_class: "btn--primary"
   btn_label: "C'est parti"
 ---
-**Les informations évolueront à l'approche de la date, n'hésitez pas à revenir les consulter !**
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
